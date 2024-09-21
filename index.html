@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- navbar -->
+
+
+    <nav class="navbar navbar-expand-lg  " style="background-color: rgba(244, 165, 96, 0.928);">
+        <div class="container  ">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+                    <li class="nav-item ">
+                        <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">ICED MOCHA</a>
+                    </li>
+
+                    <li class="nav-item"></li>
+                    <a class="nav-link fw-bold" href="#">ESPRESSED</a>
+                    </li>
+
+
+                    <li class="nav-item"></li>
+                    <a class="nav-link fw-bold" href="#">CAPPUCCINO</a>
+                    </li>
+
+                    <li class="nav-item"></li>
+                    <a class="nav-link fw-bold" href="#">MORE</a>
+                    </li>
+
+
+                    <li class="nav-item"></li>
+                    <a class="nav-link fw-bold" href="#">BLOOS</a>
+                    </li>
+
+
+                    <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+
+                </ul>
+
+
+                <form class="d-flex " role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        style="border-radius: 35px; ">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- slider------- -->
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slider21.avif " class="d-block w-100 " alt="...">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                      <h5 class="hellotext">First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div> -->
+            </div>
+
+
+
+            <div class="carousel-item">
+                <img src="images/slider11.jpg" class="d-block w-100" alt="...">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div> -->
+            </div>
+
+
+
+            <div class="carousel-item">
+                <img src="images/slider3.avif" class="d-block w-100" alt="...">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div> -->
+            </div>
+
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- cards -->
+
+
+    <div class="container-fluid  px-0" style="overflow: hidden;">
+
+        <div class=" colourandom">
+
+            <!-- navbar -->
+
+
+            <div class="row ">
+                <div class="title border  d-flex justify-content-center">
+                    <h1 class="wrote">TOP CATEGORIES</h1>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <!-- cards1 -->
+
+            <div class="row gap-5  d-flex justify-content-center ">
+
+                <div class="card" style="width: 19rem;">
+                    <div class="row">
+                        <div class=" col-6 col-md-12">
+                            <img src="images/card1.avif" class="card-img-top"
+                                alt="..." style="object-fit: cover; height: 24vh;">
+                        </div>
+
+                        <div class="card-body col-md-12 col-6">
+                            <h5 class="card-title">COFFE MOCHA</h5>
+
+                            
+
+                            
+                            <a href="#" class="btn btn-danger">BUY NOW</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 2 card -->
+
+
+                <div class="card" style="width: 19rem;">
+                    <div class="row">
+                        <div class=" col-6 col-md-12">
+                            <img src="images/card22.jpeg" class="card-img-top"
+                                alt="..." style="object-fit: cover; height: 24vh;">
+                        </div>
+
+                        <div class="card-body col-md-12 col-6">
+                            <h5 class="card-title">COFFE MOCHA</h5>
+
+                            
+
+                            
+                            <a href="#" class="btn btn-danger">BUY NOW</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- 3 card -->
+
+                <div class="card" style="width: 19rem;">
+                    <div class="row">
+                        <div class=" col-6 col-md-12">
+                            <img src="images/card3.jpeg" class="card-img-top"
+                                alt="..." style="object-fit: cover; height: 24vh;">
+                        </div>
+
+                        <div class="card-body col-md-12 col-6">
+                            <h5 class="card-title">COFFE MOCHA</h5>
+
+                            
+
+                            
+                            <a href="#" class="btn btn-danger">BUY NOW</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+              
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- footer -->
+
+
+    
+    <!-- <div class="footer-section1">
+
+
+        <div class="footer-links">
+             links List 1 -->
+            <!-- <ul>
+                <h1>Quicks Links</h1>
+                <li><a href="">Homepage</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">Our Pricing</a></li>
+                <li><a href="">FAQs</a></li>
+            </ul>
+
+            <!-- links List 2 -->
+            <!-- <ul>
+                <h1>Our Service</h1>
+                <li><a href="">House Interior</a></li>
+                <li><a href="">Office Interior</a></li>
+                <li><a href="">Building Interior</a></li>
+                <li><a href="">Hotel Interior</a></li>
+                <li><a href="">Our Portfolio</a></li>
+            </ul> -->
+
+            <!-- links List 3 -->
+            <!-- <ul>
+                <h1>Usefull Links</h1>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Lets Get In Touch</a></li>
+                <li><a href="">Term Of Use</a></li>
+                <li><a href="">Disclaimer</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul> -->
+
+        <!-- </div>
+        <div class="image-2">
+            <img style="width: 50% !important;" src="airplane.png" alt="">
+        </div> -->
+
+
+
+
+
+
+    <!-- </div> --> 
+
+
+
+    <div class="container-fluid " style="background-color: rgb(28, 22, 22);">
+        <div class="container   h-50vh" style="background-color: rgb(28, 22, 22);display: flex;align-items: center;">
+    <div class="row col-md-12" style="display: flex; align-items: center ;justify-content: center;">
+    
+            <div class="card m-2" style="width: 18rem;background-color:rgb(28, 22, 22);">
+                <ul class="list-group list-group-flush" style="background-color:rgb(28, 22, 22);">
+                  <li class="list-group-item text-light"  style="background-color:rgb(28, 22, 22);">Home </li>
+                  <li class="list-group-item text-light"  style="background-color:rgb(28, 22, 22);">Feedbacks</li>
+                  <li class="list-group-item text-light"  style="background-color:rgb(28, 22, 22);">Branches</li>
+                </ul>
+                <div class="card-footer text-light">
+                  Reviews
+                </div>
+              </div>
+    
+              <div class="card m-2" style="width: 18rem;background-color:rgb(28, 22, 22);">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-light"  style="background-color:rgb(28, 22, 22);">Nearby Branches</li>
+                  <li class="list-group-item text-light"  style="background-color:rgb(28, 22, 22);">Contact</li>
+                  <li class="list-group-item text-light"  style="background-color:rgb(28, 22, 22);">Maps</li>
+                </ul>
+                <div class="card-footer text-light"  style="background-color:rgb(28, 22, 22);">
+                 Place images
+                </div>
+              </div>
+    
+              <div class="card m-2" style="width: 18rem; background-color:rgb(28, 22, 22);">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-light"  style="background-color:rgb(28, 22, 22);">Owners contact</li>
+                  <li class="list-group-item text-light"  style="background-color:rgb(28, 22, 22);">Complane box</li>
+                  <li class="list-group-item text-light"  style="background-color:rgb(28, 22, 22);">places</li>
+                </ul>
+                <div class="card-footer text-light"  style="background-color:rgb(28, 22, 22);">
+                 Special Offers
+                </div>
+              </div>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

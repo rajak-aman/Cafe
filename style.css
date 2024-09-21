@@ -1,0 +1,110 @@
+.carousel-item{
+    height: 100vh;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* .hellotext{
+    color: rgb(255, 3, 3);
+    font-weight: bolder;
+} */
+
+
+
+
+
+/* cards */
+
+
+.height{ height: 500px;}
+
+.wrote{ color: red;
+
+font-weight: bolder;}
+
+ .span{
+  display: flex;
+ align-items: center;
+   }
+
+
+
+   .colourandom{ background-color: rgba(244, 165, 96, 0.928)}
+
+
+   /* footer */
+
+
+   .footer-section1 {
+    width: 100%;
+    min-height: 500px;
+    background-color: rgba(244, 165, 96, 0.928);
+
+    display: flex;
+}
+
+.footer-branding {
+    width: 35%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 70px;
+    margin-bottom: 100px;
+    
+
+    
+}
+
+.zey h1{
+    color: white;
+}
+
+.zey p{
+    color: white;
+}
+
+.zey{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.zey p img{
+    
+        width: 25px;
+        margin-right: 20px;
+        
+    
+    }
+
+
+.footer-links {
+    width: 65%;
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-links  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 25px;
+}
+
+
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+}            
+
